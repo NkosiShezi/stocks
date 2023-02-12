@@ -22,6 +22,11 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Connecting to the API
+
+Please create a .env.local file on the root folder and add the following
+NEXT_PUBLIC_API_URL = https://localhost:7167/api
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
