@@ -267,6 +267,10 @@ export default function Stock({ stocks }: Props) {
               variant='contained'
               color='success'
               sx={{ mb: 2 }}
+              href={`data:text/json;charset=utf-8,${encodeURIComponent(
+                JSON.stringify(stockValues)
+              )}`}
+              download='Stock Values.json'
             >
               Export to JSON
             </Button>
